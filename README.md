@@ -55,7 +55,7 @@ GET https://fantasize.net/api/v1/search_cruises?region=alaska&month=2027-07&from
   "results": [{
     "line": "Oceania", "ship": "Oceania Riviera", "depart_date": "2027-07-15", "nights": 7,
     "departs_from": "Seattle, Washington",
-    "ports_of_call": ["Victoria, British Columbia", "Icy Strait, Alaska", "Sitka, Alaska", "Ketchikan, Alaska"],
+    "ports_of_call": ["Victoria, British Columbia", "Seattle, Washington", "Icy Strait, Alaska", "Sitka, Alaska", "Ketchikan, Alaska"],
     "quoted_cabin": "balcony", "price_per_person": 2640, "price_per_person_per_night": 377,
     "vs_usual": { "verdict": "low", "percent_vs_usual": -32, "usual_per_person_per_night": 557,
                   "compared_with": "other dates of this sailing" },
