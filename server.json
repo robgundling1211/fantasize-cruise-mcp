@@ -1,0 +1,9 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "net.fantasize/cruise-finder",
+  "title": "Fantasize cruise finder",
+  "description": "Find the best-value cruise: 23 lines, ~30k sailings priced nightly, low/high vs usual, book link.",
+  "version": "1.0.0",
+  "websiteUrl": "https://fantasize.net/llms.txt",
+  "remotes": [ { "type": "streamable-http", "url": "https://fantasize.net/mcp" } ]
+}
