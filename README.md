@@ -22,6 +22,9 @@ Free. No key. Hosted, so there is nothing to install.
   ```json
   { "mcpServers": { "fantasize": { "type": "http", "url": "https://fantasize.net/mcp" } } }
   ```
+- **Plain language:** pass the person's words as `q`:
+  `https://fantasize.net/api/v1/search_cruises?q=alaska+in+july+from+seattle,+balcony,+under+$3000+for+two`
+  It is read by fixed rules; the answer says how it was understood and which words were not.
 - **No MCP?** Every tool is a plain GET:
   `https://fantasize.net/api/v1/search_cruises?region=alaska&month=2027-07&from_port=Seattle&cabin=balcony`
 
@@ -30,10 +33,10 @@ Free. No key. Hosted, so there is nothing to install.
 | tool | what it answers |
 |---|---|
 | `search_cruises` | Ranked sailings by region, month or dates, departure port, a port to visit, line, ship, tier, nights, cabin and budget. Sort by best value (furthest below its usual price), lowest price, lowest per night, or soonest. |
-| `get_cruise` | One sailing in full: day-by-day itinerary, each cabin grade's price (and which are sold out), each against its usual, the fare's price history, the same itinerary on other dates, and the best thing to do at each port. |
+| `get_cruise` | One sailing in full: day-by-day itinerary, each cabin grade's price (and which are sold out), each against its usual, the fare's price history, the same itinerary on other dates, and the best thing to do at each port, with its verified price. |
 | `compare_cruise_lines` | Which line is cheapest for the same trip: median and lowest price per night by line, with each line's cheapest sailing. |
 | `last_minute_cruise_deals` | Sailings leaving North American ports in the next ~3 weeks, measured against the book-ahead price. |
-| `port_guide` | The best things to do at a cruise port: operator, price booked direct, and how it compares with the ship's excursion. |
+| `port_guide` | The best things to do at a cruise port: the verified seller, price and operator where we have one, and a booking page for each. |
 | `cruise_options` | The regions, lines, departure ports and months covered, with counts. |
 
 ## What the numbers mean
