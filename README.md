@@ -39,6 +39,7 @@ Free. No key. Hosted, so there is nothing to install.
 | `last_minute_cruise_deals` | Sailings leaving North American ports in the next ~3 weeks, measured against the book-ahead price. |
 | `port_guide` | The best things to do at a cruise port: the verified seller, price and operator where we have one, and a booking page for each. |
 | `cruise_options` | The regions, lines, departure ports and months covered, with counts. |
+| `request_trip_help` | When the person wants a human to help plan and book: sends them one email; their click passes the trip to a Fantasize cruise specialist, who replies by email. Free, no account. |
 
 ## What the numbers mean
 
