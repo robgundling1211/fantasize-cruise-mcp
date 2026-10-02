@@ -11,12 +11,13 @@ Free. No key. Hosted, so there is nothing to install.
 | MCP endpoint (streamable HTTP) | `https://fantasize.net/mcp` |
 | REST | `https://fantasize.net/api/v1/<tool>` |
 | OpenAPI 3.1 | https://fantasize.net/openapi.json |
+| Claude Connectors Directory | https://claude.ai/directory/fantasize-cruise-finder |
 | Official MCP registry | `net.fantasize/cruise-finder` |
 | About the data | https://fantasize.net/llms.txt |
 
 ## Connect it
 
-- **Claude** (claude.ai / Desktop): Settings → Connectors → Add custom connector → `https://fantasize.net/mcp`
+- **Claude**: one click from the Connectors Directory: [Fantasize Cruise Finder](https://claude.ai/directory/fantasize-cruise-finder) (or Customize → Connectors → Add custom connector → `https://fantasize.net/mcp`)
 - **ChatGPT**: Settings → Connectors (developer mode) → add `https://fantasize.net/mcp`
 - **Any MCP client**:
   ```json
